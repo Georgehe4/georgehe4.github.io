@@ -2,16 +2,16 @@
     $(function(){
         $(".home").typed({
             strings: ["George He"],
-            startDelay: 0,
+            startDelay: 300,
             showCursor: true,
-            typeSpeed: 100,
+            typeSpeed: 250,
             onStringTyped: function() {document.getElementsByClassName("typed-cursor")[0].className="empty";}
         });
         $(".hack").typed({
-            strings: ["Hacker. Developer. Learner"],
-            startDelay: 2800,
+            strings: ["Hacker. Developer."],
+            startDelay: 4000,
             showCursor: true,
-            typeSpeed: 100,
+            typeSpeed: 150,
             onStringTyped: function() {document.getElementsByClassName("typed-cursor")[0].className="empty";}
         });
     });
