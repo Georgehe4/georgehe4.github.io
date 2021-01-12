@@ -8,7 +8,7 @@
             onStringTyped: function() {document.getElementsByClassName("typed-cursor")[0].className="empty";}
         });
         $(".hack").typed({
-            strings: ["Hacker. Developer."],
+            strings: ["Hacker. Developer. Leader."],
             startDelay: 4000,
             showCursor: true,
             typeSpeed: 150,
